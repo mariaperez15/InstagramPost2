@@ -1,0 +1,110 @@
+*{
+    list-style: none;
+    font-family: 'Arimo', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.body{
+    background-color: white;
+}
+
+img{
+    width: 500px;
+}
+
+.footer{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    padding-bottom: 4px;
+    margin-bottom: 5%;
+}
+
+.header{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.html{
+    width: 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.titulo{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+h2{
+    font-size: 13px;
+    margin-bottom:  0px;
+}
+
+
+#position{
+    margin-top: 1px;
+    font-size: 11px;
+    height: 100%;
+    margin-top: 0px;
+}
+
+
+.options{
+    width: 67%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+}
+
+.iconos{
+    display: flex;
+    margin-top: 11px;
+
+}
+
+.icon1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 8px;
+    margin-right: 367px;
+    width: 50%;
+}
+
+.icon2{
+ margin-right: 21px;
+}
+
+.texto{
+    margin-bottom: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.likes {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.likes::fist-word{
+    font-weight: bold;
+}
+
